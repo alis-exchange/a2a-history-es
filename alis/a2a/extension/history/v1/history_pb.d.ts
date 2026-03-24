@@ -5,10 +5,10 @@
 import type { GenFile, GenMessage, GenService } from "@bufbuild/protobuf/codegenv2";
 import type { Message } from "@bufbuild/protobuf";
 import type { EmptySchema, FieldMask, Timestamp } from "@bufbuild/protobuf/wkt";
-import type { Message as Message$1, Task, TaskArtifactUpdateEvent, TaskStatusUpdateEvent } from "@alis-build/a2a/lf/a2a/v1/a2a_pb";
-import type { GetIamPolicyRequestSchema, SetIamPolicyRequestSchema, TestIamPermissionsRequestSchema, TestIamPermissionsResponseSchema } from "@alis-build/google-common-protos/google/iam/v1/iam_policy_pb";
-import type { PolicySchema } from "@alis-build/google-common-protos/google/iam/v1/policy_pb";
-import type { AddIamBindingsRequestSchema, BatchTestIamPermissionsRequestSchema, BatchTestIamPermissionsResponseSchema, RemoveIamBindingsRequestSchema } from "@open.alis.services/protobuf/alis/open/iam/v1/iam_pb";
+import type { Message as Message$1, Task, TaskArtifactUpdateEvent, TaskStatusUpdateEvent } from "@alis-build/common-es/lf/a2a/v1/a2a_pb";
+import type { GetIamPolicyRequestSchema, SetIamPolicyRequestSchema, TestIamPermissionsRequestSchema, TestIamPermissionsResponseSchema } from "@alis-build/common-es/google/iam/v1/iam_policy_pb";
+import type { PolicySchema } from "@alis-build/common-es/google/iam/v1/policy_pb";
+import type { AddIamBindingsRequestSchema, BatchTestIamPermissionsRequestSchema, BatchTestIamPermissionsResponseSchema, RemoveIamBindingsRequestSchema } from "@alis-build/common-es/alis/open/iam/v1/iam_pb";
 
 /**
  * Describes the file alis/a2a/extension/history/v1/history.proto.

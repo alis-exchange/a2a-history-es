@@ -4,10 +4,10 @@
 
 import { fileDesc, messageDesc, serviceDesc } from "@bufbuild/protobuf/codegenv2";
 import { file_google_protobuf_empty, file_google_protobuf_field_mask, file_google_protobuf_timestamp } from "@bufbuild/protobuf/wkt";
-import { file_google_iam_v1_policy } from "@alis-build/google-common-protos/google/iam/v1/policy_pb";
-import { file_google_iam_v1_iam_policy } from "@alis-build/google-common-protos/google/iam/v1/iam_policy_pb";
-import { file_alis_open_iam_v1_iam } from "@open.alis.services/protobuf/alis/open/iam/v1/iam_pb";
-import { file_lf_a2a_v1_a2a } from "@alis-build/a2a/lf/a2a/v1/a2a_pb";
+import { file_google_iam_v1_policy } from "@alis-build/common-es/google/iam/v1/policy_pb";
+import { file_google_iam_v1_iam_policy } from "@alis-build/common-es/google/iam/v1/iam_policy_pb";
+import { file_alis_open_iam_v1_iam } from "@alis-build/common-es/alis/open/iam/v1/iam_pb";
+import { file_lf_a2a_v1_a2a } from "@alis-build/common-es/lf/a2a/v1/a2a_pb";
 
 /**
  * Describes the file alis/a2a/extension/history/v1/history.proto.

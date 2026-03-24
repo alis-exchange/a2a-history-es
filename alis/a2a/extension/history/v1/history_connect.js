@@ -3,10 +3,10 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { GetIamPolicyRequest, SetIamPolicyRequest, TestIamPermissionsRequest, TestIamPermissionsResponse } from "@alis-build/google-common-protos/google/iam/v1/iam_policy_pb.js";
-import { Policy } from "@alis-build/google-common-protos/google/iam/v1/policy_pb.js";
+import { GetIamPolicyRequest, SetIamPolicyRequest, TestIamPermissionsRequest, TestIamPermissionsResponse } from "@alis-build/common-es/google/iam/v1/iam_policy_pb.js";
+import { Policy } from "@alis-build/common-es/google/iam/v1/policy_pb.js";
 import { Empty, MethodKind } from "@bufbuild/protobuf";
-import { AddIamBindingsRequest, BatchTestIamPermissionsRequest, BatchTestIamPermissionsResponse, RemoveIamBindingsRequest } from "@open.alis.services/protobuf/alis/open/iam/v1/iam_pb.js";
+import { AddIamBindingsRequest, BatchTestIamPermissionsRequest, BatchTestIamPermissionsResponse, RemoveIamBindingsRequest } from "@alis-build/common-es/alis/open/iam/v1/iam_pb.js";
 import { AppendThreadEventRequest, AppendThreadEventResponse, DeleteThreadRequest, GetThreadRequest, ListThreadEventsRequest, ListThreadEventsResponse, ListThreadsRequest, ListThreadsResponse, StreamThreadEventsRequest, Thread, ThreadEvent } from "./history_pb.js";
 
 /**
